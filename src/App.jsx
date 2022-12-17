@@ -1,7 +1,11 @@
-import { useState } from "react";
-import WeatherApp from "./components/WeatherApp";
+import SecureApp from "./components/SecureApp";
+import WeatherProvider from "./context/WeatherProvider";
 function App() {
-  return <WeatherApp />;
+  return (
+    <WeatherProvider>
+      <SecureApp />
+    </WeatherProvider>
+  );
 }
 
 export default App;
