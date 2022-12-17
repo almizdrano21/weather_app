@@ -1,4 +1,4 @@
-const countries = [
+export const COUNTRIES = [
   { name: "Spain", code: "ES" },
   { name: "United States", code: "US" },
   { name: "Mexico", code: "MX" },
@@ -6,5 +6,3 @@ const countries = [
   { name: "Colombia", code: "CO" },
   { name: "Costa Rica", code: "CR" },
 ];
-
-export default { countries };
