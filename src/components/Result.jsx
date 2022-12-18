@@ -14,7 +14,7 @@ const Result = ({ resultado }) => {
       <h2>The weather of {name} is: </h2>
 
       <p>
-        {parseInt(main.temp - kelvin)} <span>&#x2103;</span>
+        {parseInt(main.temp - kelvin)} <span>&#x2103;</span> (mucho frío)
       </p>
       <div className="temp_min_max">
         <p>
